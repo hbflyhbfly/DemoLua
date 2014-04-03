@@ -226,6 +226,18 @@
 		46C1009316BF786A00F74D54 /* tolua_fix.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C1008A16BF786A00F74D54 /* tolua_fix.c */; };
 		46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD117641FF300F43DC3 /* AudioEngine.lua */; };
 		46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */; };
+		CD14080F18ECF82900BC9CF6 /* header.lua in Resources */ = {isa = PBXBuildFile; fileRef = CD14080E18ECF82900BC9CF6 /* header.lua */; };
+		CD14081318ECF86500BC9CF6 /* backGround.lua in Resources */ = {isa = PBXBuildFile; fileRef = CD14081218ECF86500BC9CF6 /* backGround.lua */; };
+		CD14081518ECF87500BC9CF6 /* collision.lua in Resources */ = {isa = PBXBuildFile; fileRef = CD14081418ECF87500BC9CF6 /* collision.lua */; };
+		CD14081918ECFDB600BC9CF6 /* gameMap.lua in Resources */ = {isa = PBXBuildFile; fileRef = CD14081818ECFDB600BC9CF6 /* gameMap.lua */; };
+		CD14081F18ED179C00BC9CF6 /* move_mg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD14081B18ED179C00BC9CF6 /* move_mg_1.png */; };
+		CD14082018ED179C00BC9CF6 /* move_mg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD14081C18ED179C00BC9CF6 /* move_mg_2.png */; };
+		CD14082118ED179C00BC9CF6 /* move_mg_3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD14081D18ED179C00BC9CF6 /* move_mg_3.png */; };
+		CD14082218ED179C00BC9CF6 /* move_mg_4.png in Resources */ = {isa = PBXBuildFile; fileRef = CD14081E18ED179C00BC9CF6 /* move_mg_4.png */; };
+		CD14082818ED180200BC9CF6 /* worldmap_body_0.png in Resources */ = {isa = PBXBuildFile; fileRef = CD14082318ED180200BC9CF6 /* worldmap_body_0.png */; };
+		CD14082918ED180200BC9CF6 /* worldmap_body_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD14082418ED180200BC9CF6 /* worldmap_body_1.png */; };
+		CD14082A18ED180200BC9CF6 /* worldmap_body_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD14082518ED180200BC9CF6 /* worldmap_body_2.png */; };
+		CD14083118ED5D9B00BC9CF6 /* BGManager.lua in Resources */ = {isa = PBXBuildFile; fileRef = CD14083018ED5D9B00BC9CF6 /* BGManager.lua */; };
 		CD3647AF18EBFE2000968161 /* Res.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3647AD18EBFE2000968161 /* Res.plist */; };
 		CD3647B018EBFE2000968161 /* Res.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3647AE18EBFE2000968161 /* Res.png */; };
 		CD3647B218EC044A00968161 /* Runer.lua in Resources */ = {isa = PBXBuildFile; fileRef = CD3647B118EC044A00968161 /* Runer.lua */; };
@@ -745,6 +757,18 @@
 		46C1008B16BF786A00F74D54 /* tolua_fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_fix.h; sourceTree = "<group>"; };
 		46C59AD117641FF300F43DC3 /* AudioEngine.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AudioEngine.lua; sourceTree = "<group>"; };
 		46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCBReaderLoad.lua; sourceTree = "<group>"; };
+		CD14080E18ECF82900BC9CF6 /* header.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = header.lua; sourceTree = "<group>"; };
+		CD14081218ECF86500BC9CF6 /* backGround.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = backGround.lua; sourceTree = "<group>"; };
+		CD14081418ECF87500BC9CF6 /* collision.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = collision.lua; sourceTree = "<group>"; };
+		CD14081818ECFDB600BC9CF6 /* gameMap.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gameMap.lua; sourceTree = "<group>"; };
+		CD14081B18ED179C00BC9CF6 /* move_mg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move_mg_1.png; sourceTree = "<group>"; };
+		CD14081C18ED179C00BC9CF6 /* move_mg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move_mg_2.png; sourceTree = "<group>"; };
+		CD14081D18ED179C00BC9CF6 /* move_mg_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move_mg_3.png; sourceTree = "<group>"; };
+		CD14081E18ED179C00BC9CF6 /* move_mg_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move_mg_4.png; sourceTree = "<group>"; };
+		CD14082318ED180200BC9CF6 /* worldmap_body_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_body_0.png; sourceTree = "<group>"; };
+		CD14082418ED180200BC9CF6 /* worldmap_body_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_body_1.png; sourceTree = "<group>"; };
+		CD14082518ED180200BC9CF6 /* worldmap_body_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_body_2.png; sourceTree = "<group>"; };
+		CD14083018ED5D9B00BC9CF6 /* BGManager.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BGManager.lua; sourceTree = "<group>"; };
 		CD3647AD18EBFE2000968161 /* Res.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Res.plist; sourceTree = "<group>"; };
 		CD3647AE18EBFE2000968161 /* Res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Res.png; sourceTree = "<group>"; };
 		CD3647B118EC044A00968161 /* Runer.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Runer.lua; sourceTree = "<group>"; };
@@ -1769,9 +1793,24 @@
 			path = script;
 			sourceTree = "<group>";
 		};
+		CD14081A18ED178F00BC9CF6 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				CD14082318ED180200BC9CF6 /* worldmap_body_0.png */,
+				CD14082418ED180200BC9CF6 /* worldmap_body_1.png */,
+				CD14082518ED180200BC9CF6 /* worldmap_body_2.png */,
+				CD14081B18ED179C00BC9CF6 /* move_mg_1.png */,
+				CD14081C18ED179C00BC9CF6 /* move_mg_2.png */,
+				CD14081D18ED179C00BC9CF6 /* move_mg_3.png */,
+				CD14081E18ED179C00BC9CF6 /* move_mg_4.png */,
+			);
+			name = background;
+			sourceTree = "<group>";
+		};
 		CD3647AC18EBFE2000968161 /* PNG */ = {
 			isa = PBXGroup;
 			children = (
+				CD14081A18ED178F00BC9CF6 /* background */,
 				CD3647AD18EBFE2000968161 /* Res.plist */,
 				CD3647AE18EBFE2000968161 /* Res.png */,
 			);
@@ -2088,6 +2127,11 @@
 				15C156951683138E00D239F2 /* Icon-72.png */,
 				15C156961683138E00D239F2 /* Icon-114.png */,
 				15C156971683138E00D239F2 /* Icon-144.png */,
+				CD14080E18ECF82900BC9CF6 /* header.lua */,
+				CD14081218ECF86500BC9CF6 /* backGround.lua */,
+				CD14081418ECF87500BC9CF6 /* collision.lua */,
+				CD14081818ECFDB600BC9CF6 /* gameMap.lua */,
+				CD14083018ED5D9B00BC9CF6 /* BGManager.lua */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -2162,15 +2206,23 @@
 			files = (
 				CD3647B218EC044A00968161 /* Runer.lua in Resources */,
 				15C156981683138E00D239F2 /* Default-568h@2x.png in Resources */,
+				CD14081F18ED179C00BC9CF6 /* move_mg_1.png in Resources */,
+				CD14083118ED5D9B00BC9CF6 /* BGManager.lua in Resources */,
 				15C156991683138E00D239F2 /* Default.png in Resources */,
+				CD14081518ECF87500BC9CF6 /* collision.lua in Resources */,
 				15C1569A1683138E00D239F2 /* Default@2x.png in Resources */,
+				CD14081918ECFDB600BC9CF6 /* gameMap.lua in Resources */,
 				15C1569B1683138E00D239F2 /* Icon-57.png in Resources */,
+				CD14082818ED180200BC9CF6 /* worldmap_body_0.png in Resources */,
+				CD14082118ED179C00BC9CF6 /* move_mg_3.png in Resources */,
 				15C1569C1683138E00D239F2 /* Icon-72.png in Resources */,
 				15C1569D1683138E00D239F2 /* Icon-114.png in Resources */,
 				15C1569E1683138E00D239F2 /* Icon-144.png in Resources */,
 				1AC3622F16D47C5C000847F2 /* background.mp3 in Resources */,
+				CD14082918ED180200BC9CF6 /* worldmap_body_1.png in Resources */,
 				1AC3623016D47C5C000847F2 /* background.ogg in Resources */,
 				1AC3623116D47C5C000847F2 /* crop.png in Resources */,
+				CD14080F18ECF82900BC9CF6 /* header.lua in Resources */,
 				1AC3623216D47C5C000847F2 /* dog.png in Resources */,
 				1AC3623316D47C5C000847F2 /* effect1.wav in Resources */,
 				1AC3623416D47C5C000847F2 /* farm.jpg in Resources */,
@@ -2180,9 +2232,13 @@
 				CD3647AF18EBFE2000968161 /* Res.plist in Resources */,
 				1AC3623816D47C5C000847F2 /* land.png in Resources */,
 				1AC3623916D47C5C000847F2 /* menu1.png in Resources */,
+				CD14082018ED179C00BC9CF6 /* move_mg_2.png in Resources */,
 				1AC3623A16D47C5C000847F2 /* menu2.png in Resources */,
 				46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */,
+				CD14082A18ED180200BC9CF6 /* worldmap_body_2.png in Resources */,
 				46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */,
+				CD14082218ED179C00BC9CF6 /* move_mg_4.png in Resources */,
+				CD14081318ECF86500BC9CF6 /* backGround.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

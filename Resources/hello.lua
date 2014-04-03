@@ -1,5 +1,6 @@
 require "AudioEngine"
-require "Runer"
+RunerLayer = require "Runer"
+BackGroundLayer = require "backGround"
 -- for CCLuaEngine traceback
 function __G__TRACKBACK__(msg)
     print("----------------------------------------")
@@ -18,7 +19,14 @@ local function main()
     end
 
     local cache = CCSpriteFrameCache:sharedSpriteFrameCache():addSpriteFramesWithFile("Res.plist")
-
+    
+    CCTextureCache:sharedTextureCache():addImage("move_mg_1.png")
+    CCTextureCache:sharedTextureCache():addImage("move_mg_2.png")
+    CCTextureCache:sharedTextureCache():addImage("move_mg_3.png")
+    CCTextureCache:sharedTextureCache():addImage("move_mg_4.png")
+    CCTextureCache:sharedTextureCache():addImage("worldmap_body_0.png")
+    CCTextureCache:sharedTextureCache():addImage("worldmap_body_1.png")
+    CCTextureCache:sharedTextureCache():addImage("worldmap_body_2.png")
     local visibleSize = CCDirector:sharedDirector():getWinSize()
     --print(visibleSize)
     local origin = CCDirector:sharedDirector():getVisibleOrigin()
@@ -28,7 +36,6 @@ local function main()
     -- create farm
     local function createHelloLayer()
         local layerHello = CCLayer:create()
-
 
         -- handing touch events
         local touchBeginPoint = nil
@@ -43,8 +50,8 @@ local function main()
         local function onTouchMoved(x, y)
             cclog("onTouchMoved: %0.2f, %0.2f", x, y)
             if touchBeginPoint then
-                local cx, cy = layerFarm:getPosition()
-                layerFarm:setPosition(cx + x - touchBeginPoint.x,
+                local cx, cy = createHelloLayer:getPosition()
+                createHelloLayer:setPosition(cx + x - touchBeginPoint.x,
                                       cy + y - touchBeginPoint.y)
                 touchBeginPoint = {x = x, y = y}
             end
@@ -82,8 +89,10 @@ local function main()
 
     -- run
     local sceneGame = CCScene:create()
+    sceneGame:addChild(BackGroundLayer:createBackgroundLayer())
     sceneGame:addChild(createHelloLayer())
-    sceneGame:addChild(createRunerLayer())
+    sceneGame:addChild(RunerLayer:createRunerLayer())
+
     CCDirector:sharedDirector():runWithScene(sceneGame)
 end
 

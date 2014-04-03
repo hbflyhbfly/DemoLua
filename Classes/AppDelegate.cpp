@@ -52,7 +52,8 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello.lua");
     pEngine->executeScriptFile(path.c_str());
-
+    //CCSprite
+   // a->boundingBox()
     return true;
 }
 
