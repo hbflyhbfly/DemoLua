@@ -3,8 +3,10 @@ local backGrounds = {
 	shamo = 2
 }
 local backGroundObjects = {
-	yuncai = {ID = 1,ratioX = 0,ratioY = 0,offsetX = 0,offsetY = 0},
-	haimian = {ID = 2,ratioX = 0,ratioY = 0,offsetX = 0,offsetY = 0}
+	move_bg_1 = {ID = 1,name ="move_mg_1",speed = 1,offsetY = 0},
+	move_bg_2 = {ID = 2,name ="move_mg_2",speed = 1,offsetY = 0},
+	move_bg_3 = {ID = 3,name ="move_mg_3",speed = 1,offsetY = 0},
+	move_bg_4 = {ID = 4,name ="move_mg_4",speed = 1,offsetY = 0}
 }
 local BackGround = {}
 function BackGround:createBackGround(bgName)
@@ -19,7 +21,7 @@ function BackGround:createBackGround(bgName)
 		-- body
 		
 		self._m_BG_objects[#self._m_BG_objects+1] = backGroundObjects[bgObjectName]
-		print(backGroundObjects[bgObjectName].ratioX)
+		--print(backGroundObjects[bgObjectName].ratioX)
 	end
 	function objBG:deleteMap()
 		self._m_BGName = nil
@@ -35,17 +37,21 @@ function BackGround:createBackGround(bgName)
 		if nil ~= self._m_BG_objects then
 			print("?")
 			for i=1,#self._m_BG_objects do
-				print(">")
-				for j=1,#(self._m_BG_objects[i]) do
-					print("<")
-				print("collisionname'sname:"..self._m_BG_objects[i][j].ID)
-				end
+				--print(">")
+				--for j=1,#(self._m_BG_objects[i]) do
+					print(self._m_BG_objects[i].ID)
+				--print("collisionname'sname:"..self._m_BG_objects[i][j].ID)
+				--end
 			end
 		end
 	end
 	return objBG
 end
 local b = BackGround:createBackGround("xuedi")
-b:buildBG("yuncai")
+b:buildBG("move_bg_1")
+b:buildBG("move_bg_2")
+b:buildBG("move_bg_3")
+b:buildBG("move_bg_4")
 b:showMap()
-
+print(#b)
+return b

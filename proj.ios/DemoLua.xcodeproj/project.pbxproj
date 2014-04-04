@@ -184,15 +184,9 @@
 		1AB87031175E0A5B005D39BF /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB87030175E0A5B005D39BF /* libwebsockets.a */; };
 		1AC3622F16D47C5C000847F2 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622316D47C5C000847F2 /* background.mp3 */; };
 		1AC3623016D47C5C000847F2 /* background.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622416D47C5C000847F2 /* background.ogg */; };
-		1AC3623116D47C5C000847F2 /* crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622516D47C5C000847F2 /* crop.png */; };
-		1AC3623216D47C5C000847F2 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622616D47C5C000847F2 /* dog.png */; };
 		1AC3623316D47C5C000847F2 /* effect1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622716D47C5C000847F2 /* effect1.wav */; };
-		1AC3623416D47C5C000847F2 /* farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622816D47C5C000847F2 /* farm.jpg */; };
 		1AC3623516D47C5C000847F2 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622916D47C5C000847F2 /* fonts */; };
 		1AC3623616D47C5C000847F2 /* hello.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622A16D47C5C000847F2 /* hello.lua */; };
-		1AC3623816D47C5C000847F2 /* land.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622C16D47C5C000847F2 /* land.png */; };
-		1AC3623916D47C5C000847F2 /* menu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622D16D47C5C000847F2 /* menu1.png */; };
-		1AC3623A16D47C5C000847F2 /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3622E16D47C5C000847F2 /* menu2.png */; };
 		298B2A2E18D0671400C1920F /* ButtonReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 298B2A0518D0671400C1920F /* ButtonReader.cpp */; };
 		298B2A2F18D0671400C1920F /* CheckBoxReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 298B2A0818D0671400C1920F /* CheckBoxReader.cpp */; };
 		298B2A3018D0671400C1920F /* ImageViewReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 298B2A0B18D0671400C1920F /* ImageViewReader.cpp */; };
@@ -241,6 +235,13 @@
 		CD3647AF18EBFE2000968161 /* Res.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3647AD18EBFE2000968161 /* Res.plist */; };
 		CD3647B018EBFE2000968161 /* Res.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3647AE18EBFE2000968161 /* Res.png */; };
 		CD3647B218EC044A00968161 /* Runer.lua in Resources */ = {isa = PBXBuildFile; fileRef = CD3647B118EC044A00968161 /* Runer.lua */; };
+		CDE65DBC18EE943E008F667C /* jujian_a0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDE65DB818EE943E008F667C /* jujian_a0.plist */; };
+		CDE65DBD18EE943E008F667C /* jujian_a1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDE65DB918EE943E008F667C /* jujian_a1.plist */; };
+		CDE65DBE18EE943E008F667C /* jujian_a1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE65DBA18EE943E008F667C /* jujian_a1.png */; };
+		CDE65DC118EE9DFA008F667C /* jujian_a.ExportJson in Resources */ = {isa = PBXBuildFile; fileRef = CDE65DC018EE9DFA008F667C /* jujian_a.ExportJson */; };
+		CDE65DC318EE9E65008F667C /* jujian_a0.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE65DC218EE9E65008F667C /* jujian_a0.png */; };
+		CDE65DC718EEB81A008F667C /* weatherLayer.lua in Resources */ = {isa = PBXBuildFile; fileRef = CDE65DC618EEB81A008F667C /* weatherLayer.lua */; };
+		CDE65DC918EEBE22008F667C /* ccbParticleSnow.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE65DC818EEBE22008F667C /* ccbParticleSnow.png */; };
 		ED35C0C718323498002A0750 /* CCArmatureAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03818323497002A0750 /* CCArmatureAnimation.cpp */; };
 		ED35C0C818323498002A0750 /* CCProcessBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03A18323497002A0750 /* CCProcessBase.cpp */; };
 		ED35C0C918323498002A0750 /* CCTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03C18323497002A0750 /* CCTween.cpp */; };
@@ -682,15 +683,9 @@
 		1AB87030175E0A5B005D39BF /* libwebsockets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebsockets.a; sourceTree = "<group>"; };
 		1AC3622316D47C5C000847F2 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background.mp3; path = ../Resources/background.mp3; sourceTree = "<group>"; };
 		1AC3622416D47C5C000847F2 /* background.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = background.ogg; path = ../Resources/background.ogg; sourceTree = "<group>"; };
-		1AC3622516D47C5C000847F2 /* crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crop.png; path = ../Resources/crop.png; sourceTree = "<group>"; };
-		1AC3622616D47C5C000847F2 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = ../Resources/dog.png; sourceTree = "<group>"; };
 		1AC3622716D47C5C000847F2 /* effect1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = effect1.wav; path = ../Resources/effect1.wav; sourceTree = "<group>"; };
-		1AC3622816D47C5C000847F2 /* farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = farm.jpg; path = ../Resources/farm.jpg; sourceTree = "<group>"; };
 		1AC3622916D47C5C000847F2 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../Resources/fonts; sourceTree = "<group>"; };
 		1AC3622A16D47C5C000847F2 /* hello.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hello.lua; path = ../Resources/hello.lua; sourceTree = "<group>"; };
-		1AC3622C16D47C5C000847F2 /* land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = land.png; path = ../Resources/land.png; sourceTree = "<group>"; };
-		1AC3622D16D47C5C000847F2 /* menu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu1.png; path = ../Resources/menu1.png; sourceTree = "<group>"; };
-		1AC3622E16D47C5C000847F2 /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu2.png; path = ../Resources/menu2.png; sourceTree = "<group>"; };
 		298B2A0518D0671400C1920F /* ButtonReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ButtonReader.cpp; sourceTree = "<group>"; };
 		298B2A0618D0671400C1920F /* ButtonReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonReader.h; sourceTree = "<group>"; };
 		298B2A0818D0671400C1920F /* CheckBoxReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CheckBoxReader.cpp; sourceTree = "<group>"; };
@@ -772,6 +767,13 @@
 		CD3647AD18EBFE2000968161 /* Res.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Res.plist; sourceTree = "<group>"; };
 		CD3647AE18EBFE2000968161 /* Res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Res.png; sourceTree = "<group>"; };
 		CD3647B118EC044A00968161 /* Runer.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Runer.lua; sourceTree = "<group>"; };
+		CDE65DB818EE943E008F667C /* jujian_a0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jujian_a0.plist; sourceTree = "<group>"; };
+		CDE65DB918EE943E008F667C /* jujian_a1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jujian_a1.plist; sourceTree = "<group>"; };
+		CDE65DBA18EE943E008F667C /* jujian_a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jujian_a1.png; sourceTree = "<group>"; };
+		CDE65DC018EE9DFA008F667C /* jujian_a.ExportJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jujian_a.ExportJson; sourceTree = "<group>"; };
+		CDE65DC218EE9E65008F667C /* jujian_a0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jujian_a0.png; sourceTree = "<group>"; };
+		CDE65DC618EEB81A008F667C /* weatherLayer.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weatherLayer.lua; sourceTree = "<group>"; };
+		CDE65DC818EEBE22008F667C /* ccbParticleSnow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbParticleSnow.png; sourceTree = "<group>"; };
 		ED35C03818323497002A0750 /* CCArmatureAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCArmatureAnimation.cpp; sourceTree = "<group>"; };
 		ED35C03918323497002A0750 /* CCArmatureAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCArmatureAnimation.h; sourceTree = "<group>"; };
 		ED35C03A18323497002A0750 /* CCProcessBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCProcessBase.cpp; sourceTree = "<group>"; };
@@ -1810,11 +1812,24 @@
 		CD3647AC18EBFE2000968161 /* PNG */ = {
 			isa = PBXGroup;
 			children = (
+				CDE65DC818EEBE22008F667C /* ccbParticleSnow.png */,
 				CD14081A18ED178F00BC9CF6 /* background */,
 				CD3647AD18EBFE2000968161 /* Res.plist */,
 				CD3647AE18EBFE2000968161 /* Res.png */,
 			);
 			path = PNG;
+			sourceTree = "<group>";
+		};
+		CDE65DBF18EE9918008F667C /* Armature */ = {
+			isa = PBXGroup;
+			children = (
+				CDE65DC218EE9E65008F667C /* jujian_a0.png */,
+				CDE65DC018EE9DFA008F667C /* jujian_a.ExportJson */,
+				CDE65DB818EE943E008F667C /* jujian_a0.plist */,
+				CDE65DB918EE943E008F667C /* jujian_a1.plist */,
+				CDE65DBA18EE943E008F667C /* jujian_a1.png */,
+			);
+			name = Armature;
 			sourceTree = "<group>";
 		};
 		ED35C02A18323496002A0750 /* CocoStudio */ = {
@@ -2107,19 +2122,14 @@
 		F293BC4615EB859D00256477 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CDE65DBF18EE9918008F667C /* Armature */,
 				CD3647AC18EBFE2000968161 /* PNG */,
 				1AC3622316D47C5C000847F2 /* background.mp3 */,
 				1AC3622416D47C5C000847F2 /* background.ogg */,
-				1AC3622516D47C5C000847F2 /* crop.png */,
-				1AC3622616D47C5C000847F2 /* dog.png */,
 				1AC3622716D47C5C000847F2 /* effect1.wav */,
-				1AC3622816D47C5C000847F2 /* farm.jpg */,
 				1AC3622916D47C5C000847F2 /* fonts */,
 				1AC3622A16D47C5C000847F2 /* hello.lua */,
 				CD3647B118EC044A00968161 /* Runer.lua */,
-				1AC3622C16D47C5C000847F2 /* land.png */,
-				1AC3622D16D47C5C000847F2 /* menu1.png */,
-				1AC3622E16D47C5C000847F2 /* menu2.png */,
 				15C156911683138E00D239F2 /* Default-568h@2x.png */,
 				15C156921683138E00D239F2 /* Default.png */,
 				15C156931683138E00D239F2 /* Default@2x.png */,
@@ -2132,6 +2142,7 @@
 				CD14081418ECF87500BC9CF6 /* collision.lua */,
 				CD14081818ECFDB600BC9CF6 /* gameMap.lua */,
 				CD14083018ED5D9B00BC9CF6 /* BGManager.lua */,
+				CDE65DC618EEB81A008F667C /* weatherLayer.lua */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -2208,6 +2219,7 @@
 				15C156981683138E00D239F2 /* Default-568h@2x.png in Resources */,
 				CD14081F18ED179C00BC9CF6 /* move_mg_1.png in Resources */,
 				CD14083118ED5D9B00BC9CF6 /* BGManager.lua in Resources */,
+				CDE65DBE18EE943E008F667C /* jujian_a1.png in Resources */,
 				15C156991683138E00D239F2 /* Default.png in Resources */,
 				CD14081518ECF87500BC9CF6 /* collision.lua in Resources */,
 				15C1569A1683138E00D239F2 /* Default@2x.png in Resources */,
@@ -2220,21 +2232,21 @@
 				15C1569E1683138E00D239F2 /* Icon-144.png in Resources */,
 				1AC3622F16D47C5C000847F2 /* background.mp3 in Resources */,
 				CD14082918ED180200BC9CF6 /* worldmap_body_1.png in Resources */,
+				CDE65DC918EEBE22008F667C /* ccbParticleSnow.png in Resources */,
 				1AC3623016D47C5C000847F2 /* background.ogg in Resources */,
-				1AC3623116D47C5C000847F2 /* crop.png in Resources */,
+				CDE65DC718EEB81A008F667C /* weatherLayer.lua in Resources */,
 				CD14080F18ECF82900BC9CF6 /* header.lua in Resources */,
-				1AC3623216D47C5C000847F2 /* dog.png in Resources */,
 				1AC3623316D47C5C000847F2 /* effect1.wav in Resources */,
-				1AC3623416D47C5C000847F2 /* farm.jpg in Resources */,
 				1AC3623516D47C5C000847F2 /* fonts in Resources */,
 				CD3647B018EBFE2000968161 /* Res.png in Resources */,
 				1AC3623616D47C5C000847F2 /* hello.lua in Resources */,
 				CD3647AF18EBFE2000968161 /* Res.plist in Resources */,
-				1AC3623816D47C5C000847F2 /* land.png in Resources */,
-				1AC3623916D47C5C000847F2 /* menu1.png in Resources */,
+				CDE65DBD18EE943E008F667C /* jujian_a1.plist in Resources */,
+				CDE65DC118EE9DFA008F667C /* jujian_a.ExportJson in Resources */,
 				CD14082018ED179C00BC9CF6 /* move_mg_2.png in Resources */,
-				1AC3623A16D47C5C000847F2 /* menu2.png in Resources */,
+				CDE65DBC18EE943E008F667C /* jujian_a0.plist in Resources */,
 				46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */,
+				CDE65DC318EE9E65008F667C /* jujian_a0.png in Resources */,
 				CD14082A18ED180200BC9CF6 /* worldmap_body_2.png in Resources */,
 				46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */,
 				CD14082218ED179C00BC9CF6 /* move_mg_4.png in Resources */,

@@ -1,7 +1,25 @@
 require "AudioEngine"
-RunerLayer = require "Runer"
+require "Runer"
+require "weatherLayer"
 BackGroundLayer = require "backGround"
+CollisionLayer = require "collision"
 -- for CCLuaEngine traceback
+
+local _action = {
+    "dengdai",
+    "beizhan",
+    "quabhub",
+    "houtui",
+    "ggg",
+    "shoushang",
+    "fukong",
+    "bajian",
+    "si",
+    "gongji_c",
+    "gongji_b",
+    "gongji_a"
+}
+
 function __G__TRACKBACK__(msg)
     print("----------------------------------------")
     print("LUA ERROR: " .. tostring(msg) .. "\n")
@@ -31,8 +49,6 @@ local function main()
     --print(visibleSize)
     local origin = CCDirector:sharedDirector():getVisibleOrigin()
 
-
-
     -- create farm
     local function createHelloLayer()
         local layerHello = CCLayer:create()
@@ -43,6 +59,10 @@ local function main()
         local function onTouchBegan(x, y)
             cclog("onTouchBegan: %0.2f, %0.2f", x, y)
             touchBeginPoint = {x = x, y = y}
+            local ranID= math.random(#_action)
+            changeAnimate(_action[ranID])
+            --local a = CCBProxy:create()
+
             -- CCTOUCHBEGAN event must return true
             return true
         end
@@ -88,11 +108,13 @@ local function main()
     AudioEngine.preloadEffect(effectPath)
 
     -- run
+    local helloLayer = createHelloLayer()
     local sceneGame = CCScene:create()
-    sceneGame:addChild(BackGroundLayer:createBackgroundLayer())
-    sceneGame:addChild(createHelloLayer())
-    sceneGame:addChild(RunerLayer:createRunerLayer())
-
+    sceneGame:addChild(helloLayer)
+    helloLayer:addChild(BackGroundLayer:createBackgroundLayer())
+    helloLayer:addChild(createRunerLayer())
+    helloLayer:addChild(CollisionLayer:createCollisionLayer())
+    helloLayer:addChild(setSnow())
     CCDirector:sharedDirector():runWithScene(sceneGame)
 end
 

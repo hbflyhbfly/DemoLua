@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5696EF44-6606-427F-BE75-A4319EF7C2F2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoLua</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>594A6575-E91F-41B4-8D87-BF22E14A7418</key>
+		<string>https://github.com/hbflyhbfly/DemoLua.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>proj.ios/DemoLua.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>594A6575-E91F-41B4-8D87-BF22E14A7418</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hbflyhbfly/DemoLua.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>594A6575-E91F-41B4-8D87-BF22E14A7418</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>594A6575-E91F-41B4-8D87-BF22E14A7418</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DemoLua</string>
+		</dict>
+	</array>
+</dict>
+</plist>
